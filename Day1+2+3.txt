@@ -1,0 +1,24 @@
+1. source code vs object code
+      -> source code is basically the collection of programming statements created by programmer. This source code is compiled further to create object code.
+2. Keywords variables
+      -> keywords are basically predefined words in the programming language, whereas variables are those which we manually define.
+3. Declare Array
+      -> Array is collection of data. Declaring String array in java where we intialize the array as String[] s = new String();
+4. Store data in array and process elements
+      -> We created employee datan where we accepted data from user in array format stored it and then performed CRUDE operations on it. 
+5. Pointers 
+      -> pointers are bascally variables whose value is address of another variables. Pointers do not support java because they point to memory location which indirectly 
+         loses the security. 
+6. Calling function by passing values and refrences.
+      ->
+12. Implement Data structures.
+      -> Data structures are basically storage and management of data which are easily accessible. Data structures we learnt during the session are linked list, binary tree, stack
+         Queue etc. 
+         Linked List: Linked list has sequential access, it has dynamic mempry allocation and also in linked list there is a node created with its address which points to the 
+         next node and all operations are performed with the help of address of the node. 
+         Stacks: Stack contains LIFO structure. The data members included during the implementation of the stack are top, and array. Methods included during implementation of 
+         stack are push, pop, peek, isEmpty. Stack has dynamic memory allocation. 
+         Queue: Queue contains FIFO structure. The datamembers included during the implementation of queue are front, rear, array. Methods included are isFull, Enqueue, dequeue
+         etc. Queue also has dynamic memory allocation and elements in queue are accessed in sequential manner. 
+         Binary Tree: Binary has root node and child are inherited from root node. As it is binary tree there are two child nodes. Left_child, Right_child. In binary tree there is 
+         dynamic memory allocation. Tree structure are usually used to represent heirarchy of the data. For instance file structure in system. 
