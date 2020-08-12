@@ -4,3 +4,4 @@ Array -------------- Random Access ----------Static allocation------------ Numbe
 Linked_List--------- Sequential Access-------Dynamic allocation----------- Pointer of head points to next node----------Graphs
 Stack--------------- Sequential Access-------Dynamic allocation----------- LIFO structure-------------------------------Trees
 Oueue--------------- Sequential Access-------Dynamic allocation----------- FIFO structure-------------------------------Linear access of data
+Binary_Tree--------- Sequential Access-------Dynamic allocation----------- root,leftnode,rightnode(Heirarchy)-----------File_system
