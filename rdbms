@@ -1,0 +1,30 @@
+create table person(person_ID number(7), person_Name varchar(20), 
+                    city varchar(20), state varchar(20), 
+					bdate date, adhar_no varchar(20));
+insert into person values(01,'Swarali','Pune','Maharshtra',
+                          TO_DATE('1998-12-24','YYYY-MM-DD'),'3452456');
+insert into person values(02,'Anushka','Hyderabad','Maharshtra',
+                          TO_DATE('2003-09-23','YYYY-MM-DD'),'123456');
+insert into person values(03,'Pranali','Hyderabad','Maharshtra',
+                          TO_DATE('1974-09-04','YYYY-MM-DD'),'234756');
+insert into person values(04,'Piyush','Pune','Maharshtra',
+                          TO_DATE('1973-06-18','YYYY-MM-DD'),'2434333');
+select * from person;
+
+update person set person_Name = 'Madhura', 
+                         city = 'Jaipur', state = 'Rajasthan', 
+                         bdate = TO_DATE('1998-08-22','YYYY-MM-DD'), 
+					     adhar_no = '5463432' where person_ID = 02;
+select * from person;
+
+update person set state = 'Telangana' where city = 'Hyderabad';
+
+select * from person;
+
+delete from person where city = 'Hyderabad';
+select * from person;
+
+
+alter table person add primary key (person_ID);
+delete from person where person_ID = 04;
+select * from person;
